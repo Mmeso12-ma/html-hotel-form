@@ -13,6 +13,8 @@
       </p>
     </header>
     <main>
+      
+      
       <form method="POST" action="https://hotel-feedback.freecodecamp.org">
         <fieldset>
           <legend>Personal Information</legend>
@@ -128,6 +130,7 @@
           <input type="checkbox" id="bar" name="bar" value="bar" />
           <label for="wifi">WiFi</label>
           <input type="checkbox" id="wifi" name="wifi" value="wifi" />
+          
         </fieldset>
         
 
@@ -136,6 +139,53 @@
 
          <button type="submit">Submit</button>
       </form>
+      <style> 
+        fieldset {
+          margin-bottom: 15px;
+          padding: 10px;
+        }
+        label {
+          display: block;
+          margin-top: 10px;
+        }
+        input[type="text"], input[type="email"], input[type="number"], select, textarea {
+          width: 100%;
+          padding: 8px;
+          margin-top: 5px;
+          box-sizing: border-box; 
+        }
+        button {
+          margin-top: 15px;
+          padding: 10px 20px;
+          background-color: greenyellow;
+          color: brown;
+          border: none;
+          cursor: pointer;
+        }
+        button:hover {
+          background-color: red;
+        }   
+        button:active {
+          background-color: blueviolet;
+        }
+        button:focus {
+          outline: none;
+        }
+        body {
+          font-family: Arial, sans-serif;
+          margin: 20px;
+          background-color: brown
+        }
+        h1 {
+          color: #D8A7B1;
+          font-style: italic;
+          font-size: 40px;
+          
+        }
+      </style>
     </main>
+    <footer>
+      <p>© 2024 Hotel Feedback. All rights reserved.</p>
+    </footer>
   </body>
 </html>
